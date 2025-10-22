@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gfvIT</title>
+    <style>
+        /* ---------------------------------------------------- */
+        /* CSS: ESTILIZAÇÃO (AS CORES E O VISUAL) */
+        /* ---------------------------------------------------- */
+
+        /* Reseta margem e define fonte básica */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #5271ff; /* Cor de fundo suave */
+            color: #051d40;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Alinha ao topo para parecer melhor no celular */
+            min-height: 100vh;
+        }
+
+        /* Container principal */
+        .container {
+            width: 100%;
+            max-width: 600px; /* Limita a largura como no Linktree */
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        /* Avatar (Foto de Perfil) */
+        .avatar {
+            width: 96px;
+            height: 96px;
+            border-radius: 50%; /* Deixa a imagem redonda */
+            object-fit: cover;
+            margin: 20px auto 10px;
+            border: 2px solid #ccc; /* Borda opcional */
+        }
+
+        /* Título e Bio */
+        .title {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .bio {
+            font-size: 1em;
+            margin-bottom: 30px;
+            color: #051d40;
+        }
+
+        /* Estilo dos Botões de Links */
+        .link-button {
+            display: block; /* Ocupa a largura total */
+            background-color: #000000; /* Fundo preto (Estilo Linktree) */
+            color: white; /* Texto branco */
+            padding: 15px 20px;
+            margin: 15px 0;
+            text-decoration: none; /* Remove sublinhado do link */
+            border-radius: 10px; /* Bordas arredondadas */
+            font-size: 1.1em;
+            font-weight: 600;
+            transition: background-color 0.2s, transform 0.1s; /* Transição suave */
+            border: 1px solid #000000;
+        }
+
+        .link-button:hover {
+            background-color: #333333; /* Fica um pouco mais claro ao passar o mouse */
+            transform: translateY(-2px); /* Efeito de "levitar" */
+        }
+
+        /* Rodapé de Redes Sociais (Opcional) */
+        .social-icons {
+            margin-top: 30px;
+        }
+        .social-icon {
+            color: #666;
+            text-decoration: none;
+            font-size: 2em;
+            margin: 0 10px;
+        }
+        .social-icon:hover {
+            color: #000;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <img src="https://raw.githubusercontent.com/gfvendra/gfvendra/main/.github/workflows/LOGO-gfvit.png" alt="Logo gfvIT" class="avatar">
+        
+        <div class="title">gfvIT</div>
+        <div class="bio">.Transformando desafios de TI em soluções 💡</div>
+
+        <a href="https://medium.com/@gustavofv" target="_blank" class="link-button" style="background-color: #d3be05; border-color: #051d40; color: #051d40;">
+            ✨ Meus Projetos
+        </a>
+
+        <a href="https://www.instagram.com/gfv_it" target="_blank" class="link-button">
+            📸 Instagram
+        </a>
+
+        <a href="mailto:contato@gfvit.com.br" class="link-button">
+            📧 Contato por E-mail
+        </a>
+        
+        <a href="https://www.linkedin.com/in/gustavofvendramini/" target="_blank" class="link-button">
+            💼 Perfil do LinkedIn
+        </a>
+        </div>
+</body>
+</html>
